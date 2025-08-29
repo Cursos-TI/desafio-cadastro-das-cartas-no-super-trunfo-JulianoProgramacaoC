@@ -28,11 +28,11 @@ printf("cadastro carta 1: \n");
 printf("Estado (A-H): ");
 scanf("%c", &Estado1);
 
-printf("Codigo da carta (ex:A01): ");
+printf("Codigo da carta (A01): ");
 scanf("%s", Codigo1);
 
 printf("Nome da Cidade: ");
-scanf("%[^\n]s", NomeCidade1);
+scanf("%c[^\n]s", NomeCidade1);
 
 printf("População: ");
 scanf("%d", &Populacao1);
@@ -53,11 +53,11 @@ printf("\n Cadastro da Carta 2:\n");
 printf("Estado (A-H)");
 scanf("%c", &Estado2);
 
-printf("Código da Carta (ex: B02): ");
+printf("Código da Carta (B02): ");
 scanf("%s", &Codigo2);
 
 printf("Nome da Cidade: ");
-scanf(" %[^\n]s", &NomeCidade2);
+scanf(" %c[^\n]s", &NomeCidade2);
 
 printf("População: ");
 scanf("%d", &Populacao2);
