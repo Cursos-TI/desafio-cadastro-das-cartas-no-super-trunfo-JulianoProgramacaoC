@@ -88,13 +88,9 @@ printf("Código: B02%s\n", Codigo2);
 printf("Nome da Cidade: Rio de Janeiro%s\n", NomeCidade2);
 printf("População: 6748000%d\n", Populacao2);
 printf("Área: 1200.25%.2f km²\n", Area2);
+printf("PIB: 700.20%.f bilhões de reais\n", Pib2);
 printf("Número de Pontos Turísticos: 3%d\n", PontosTuristicos2);
 
 
-
-
-
-
 return 0;
-
 }
