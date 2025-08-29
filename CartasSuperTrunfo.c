@@ -23,7 +23,7 @@ float Pib2;
 int PontosTuristicos2;
 
 // leitura - carta 1
-printf("cadastro carta 1: \n");
+printf("Cadastro da Carta 1: \n");
 
 printf("Estado (A-H): ");
 scanf("%c", &Estado1);
