@@ -2,7 +2,6 @@
 
 int main(){
 printf("Super Trunfo Novato \n");
-printf("Novo Commit \n");
 
 // carta 1
 
@@ -30,7 +29,7 @@ printf("Estado (A-H): ");
 scanf("%c", &Estado1);
 
 printf("Codigo da carta (ex:A01): ");
-scanf("%S", Codigo1);
+scanf("%s", Codigo1);
 
 printf("Nome da Cidade: ");
 scanf("%[^\n]s", NomeCidade1);
