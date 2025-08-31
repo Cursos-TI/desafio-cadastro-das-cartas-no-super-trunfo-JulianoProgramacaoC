@@ -25,7 +25,7 @@ int main() {
     printf("Digite o estado (letra de A a H): ");
     scanf(" %c", &estado1);
 
-    printf("Digite o código da carta (ex: A01): ");
+    printf("Digite o código da carta (ex: A01): \n ");
     scanf("%s", codigo1);
 
     printf("Digite o nome da cidade: ");
