@@ -28,43 +28,43 @@ int main() {
     printf("Digite o código da carta (ex: A01): \n ");
     scanf("%s", codigo1);
 
-    printf("Digite o nome da cidade: ");
+    printf("Digite o nome da cidade: \n ");
     scanf(" %[^\n]", nomeCidade1);
 
-    printf("Digite a população da cidade: ");
+    printf("Digite a população da cidade: \n ");
     scanf("%d", &populacao1);
 
-    printf("Digite a área da cidade (em km²): ");
+    printf("Digite a área da cidade (em km²): \n ");
     scanf("%f", &area1);
 
-    printf("Digite o PIB da cidade (em bilhões): ");
+    printf("Digite o PIB da cidade (em bilhões): \n ");
     scanf("%f", &pib1);
 
-    printf("Digite o número de pontos turísticos: ");
+    printf("Digite o número de pontos turísticos: \n ");
     scanf("%d", &pontosTuristicos1);
 
     // cadastro carta 2
     printf("\nCadastro da Carta 2:\n");
 
-    printf("Digite o estado (letra de A a H): ");
+    printf("Digite o estado (letra de A a H): \n ");
     scanf(" %c", &estado2);
 
-    printf("Digite o código da carta (ex: B03): ");
+    printf("Digite o código da carta (ex: B03): \n ");
     scanf("%s", codigo2);
 
-    printf("Digite o nome da cidade: ");
+    printf("Digite o nome da cidade: \n ");
     scanf(" %[^\n]", nomeCidade2);
 
-    printf("Digite a população da cidade: ");
+    printf("Digite a população da cidade: \n ");
     scanf("%d", &populacao2);
 
-    printf("Digite a área da cidade (em km²): ");
+    printf("Digite a área da cidade (em km²): \n ");
     scanf("%f", &area2);
 
-    printf("Digite o PIB da cidade (em bilhões): ");
+    printf("Digite o PIB da cidade (em bilhões): \n ");
     scanf("%f", &pib2);
 
-    printf("Digite o número de pontos turísticos: ");
+    printf("Digite o número de pontos turísticos: \n ");
     scanf("%d", &pontosTuristicos2);
 
     // Exibição das cartas cadastradas
