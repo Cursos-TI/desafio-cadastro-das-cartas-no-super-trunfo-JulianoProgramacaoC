@@ -29,7 +29,7 @@ int main() {
     scanf("%s", codigo1);
 
     printf("Digite o nome da cidade: ");
-    scanf(" %[^\n]", nomeCidade1); // Lê até o final da linha (nome com espaços)
+    scanf(" %[^\n]", nomeCidade1);
 
     printf("Digite a população da cidade: ");
     scanf("%d", &populacao1);
